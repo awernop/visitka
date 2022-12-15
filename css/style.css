@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+}
+#wrapper{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    width: 100%;
+}
+header {
+    height: 120px;
+    width: 1040px;
+    margin: 0 auto;
+}
+main {
+    padding-bottom: 100px;
+    width: 1040px;
+    margin: 0 auto;
+}
+footer {
+    margin: -100px auto 0;
+    position: relative;
+    height: 100px;
+    width: 1040px;
+    margin: 0 auto;
+}
+body {
+    background-color: #380577;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+.main_img-float{
+    width: 550px;
+    margin-right: 40px;
+    float: left;
+}
+#panorama {
+    width: 100%;
+    height: 150px;
+    background: url(/img/2.jpg) no-repeat center 70%;
+    background-size: cover;
+}
+.services__ing, .klienti__ing {
+    width: 240px;
+}
+.services__item {
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 240px;
+    float: left;
+}
+.services{
+    padding: 35px;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.h1--invisible{
+    visibility: hidden;
+}
+.onas__img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+.text__onas{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 500px;
+}
+.onaas{
+    text-align: center;
+}
+.dop__text{
+    color: #fc4dff;
+}
+.kontakti{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.klienti__text{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 100px;
+    font-size: 24px;
+    float: left;
+}
+.pink{
+    color: #fc4dff;
+}
+.footer__block, .footer__icons{
+    display: inline-block;
+    width: 335px;
+}
+.footer__icons{
+    text-align: right;
+}
+.footer__img{
+    width: 50px;
+    margin-left: 10px;
+}
+.footer__block{
+    text-transform:uppercase;
+    text-align: center;
+}
+h1, h2{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 20px;
+}
+mark{
+    color: black;
+    background-color: #fc4dff;
+}
+img{
+    border: 1px;
+    border-radius: 1px;
+    box-shadow: 1px 15px 150px #1fee87;
+}
+#mainnav ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+#mainnav li{
+    display:inline;
+}
+#mainnav a{
+    text-decoration: none;
+    padding-left: 150px;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+#mainnav a:hover{
+    text-decoration: underline;
+}
+#mainnav li.active a{
+    font-weight: bold;
+}
+.podrobnee{
+    color: #fc4dff;
+    text-decoration: none;
+}
+#pod a:hover{
+    text-decoration: underline;
+}
+.new::after{
+   content: "new";
+   font-size: 10px;
+   vertical-align: super;
+   background-color: violet;
+   border-radius: 2px;
+   padding: 3px;
+   margin-left: 5px; 
+}
+table{
+    border-collapse: collapse;
+}
+th, td{
+    text-align: center;
+    padding: 10px;
+}
+.price th:first-child{
+    width: 10%;
+}
+.price th:nth-child(2), .price th:last-child{
+    width: 25%;
+}
+.opisanie{
+    text-align: left;
+}
+tbody tr:nth-child(even) {
+    background-color: #a440d3;
+  }
+.headtabl{
+    border: 5px solid #fc4dff;
+    border-collapse: collapse;
+}
+td{
+    border-top: 2px solid #fff;
+    text-align: center;
+    padding: 10px;
+}
+th{
+    border-bottom: 5px solid #fc4dff;
+}
+caption{
+    font-size: 25px;
+    text-align: left;
+}
+.white{
+    color: #fff;
+}
+#contact-form input[type="text"]{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: #fff solid 1px;
+    background-color: #eddfff;
+}
+#contact-form input[type="submit"]{
+    font-style: italic;
+    text-transform: uppercase;
+    background-color: #a440d3;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #571c72;
+    border-color: #571c72;
+}
+#contact-form input[type="submit"]:hover{
+    font-style: italic;
+    text-transform: uppercase;
+    background-color: #d8bdfc;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #a440d3;
+    border-color: #a440d3;
+}
+#contact-form select{
+    height: 50px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: #fff solid 1px;
+    background-color: #eddfff;
+}
+#massage-text input[type="text"]{
+    height: 250px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: #fff solid 1px;
+    background-color: #eddfff;
+    text-align: left;
+}
+#contact-form input[type="email"]{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: #fff solid 1px;
+    background-color: #eddfff;
+}
+#contact-form input[type="date"]{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: #fff solid 1px;
+    background-color: #eddfff;
+}
